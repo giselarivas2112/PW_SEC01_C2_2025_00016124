@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Página del libro</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="pagina">
+    <h1 id="titulo">HTML & CSS: Curso práctico avanzado</h1>
+
+    <div class="botones">
+      <button id="btn-ordenar">Ordenar columnas en filas</button>
+      <button id="btn-titulo">Cambiar título</button>
+      <button id="btn-color">Cambiar color de descripción</button>
+      <button id="btn-imagen">Agregar imagen debajo de Datos del libro</button>
+    </div>
+
+    <section class="contenido">
+      <div class="columna izquierda">
+        <h3>Datos del libro</h3>
+        <ul>
+          <li><b>Título:</b> HTML & CSS: Curso práctico avanzado</li>
+          <li><b>Autor:</b> Sergio Luján Mora</li>
+          <li><b>Editorial:</b> Publicaciones Altaria</li>
+          <li><b>Año de publicación:</b> 2015</li>
+          <li><b>ISBN:</b> 978-84-944049-4-8</li>
+        </ul>
+        <div id="caja-imagen"></div>
+      </div>
+
+      <div class="columna derecha">
+        <h3 id="subtitulo">Descripción del libro</h3>
+        <p id="texto-descripcion">
+          Aunque los inicios de Internet se remontan a los años sesenta, no ha sido hasta los años noventa cuando,
+          gracias a la Web, se ha extendido su uso por todo el mundo. En pocos años, la Web ha evolucionado
+          enormemente: se ha pasado de páginas sencillas, con pocos elementos y contenidos estáticos que eran
+          visitadas por unos pocos usuarios a páginas complejas, con contenidos dinámicos que provienen de bases
+          de datos y que son visitadas por millones de usuarios al mismo tiempo.
+          <br><br>
+          Todas las páginas están internamente construidas con la misma tecnología, con el Lenguaje de marcas de
+          hipertexto (HTML) y con las Hojas de estilo en cascada (CSS).
+          <br><br>
+          Este libro es adecuado para cualquiera que tenga interés en aprender a desarrollar sus propias páginas Web.
+          No son necesarios conocimientos previos para aprender con este libro, lo único que es necesario es saber
+          utilizar un ordenador y saber navegar por la Web.
+        </p>
+
+        <h3>Contenido del libro</h3>
+        <p>El contenido de este libro se estructura en tres apartados bien diferenciados:</p>
+        <section id="contenido-libro" class="caja-contenido">
+          <div class="columna-libro izquierda-libro">
+            <div class="caja-parrafo">
+              <p>
+                En la primera parte del libro se trabajan conceptos generales que son necesarios para poder desarrollar
+                páginas web; se explican conceptos de estructura física y estructura lógica (o estructura de navegación)
+                de un sitio web. Se detalla cómo influye la estructura física en las URL o direcciones que se emplean a
+                la hora de crear los enlaces de un sitio web. Pasando por el concepto de “estándar web”, un término
+                general que se emplea para referirse a los estándares que definen su funcionamiento como HTML y CSS,
+                empleados para el desarrollo de las páginas web en el lado del cliente.
+              </p>
+            </div>
+          </div>
+
+          <div class="columna-libro derecha-libro">
+            <div class="caja-parrafo">
+              <p>
+                En la segunda parte se trabaja HTML. Partiendo de la estructura básica de una página web, se explican
+                las etiquetas de HTML que se utilizan para definir el texto, los enlaces, las listas, las tablas, los
+                formularios y los elementos multimedia.
+              </p>
+            </div>
+            <div class="caja-parrafo">
+              <p>
+                En la tercera y última parte se explica CSS, el lenguaje que se emplea para definir el formato y la
+                presentación de una página web. Se explica cómo utilizar color, cómo definir la presentación del texto,
+                de las tablas y de los formularios; cómo realizar transformaciones y transiciones con el fin de diseñar
+                una página web.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
