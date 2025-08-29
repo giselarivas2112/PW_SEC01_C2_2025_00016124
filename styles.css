@@ -1,0 +1,105 @@
+body {
+  font-family: 'Poppins';
+  margin: 30px;
+  background: #fff;
+  color: #000;
+}
+
+.pagina {
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contenido {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.columna {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.izquierda {
+  width: 30%;
+}
+
+.derecha {
+  width: 70%;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+#caja-imagen img {
+  margin-top: 15px;
+  max-width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+
+
+.caja-contenido {
+  display: flex;
+  gap: 20px;
+}
+
+.columna-libro {
+  text-align: justify;
+}
+
+.izquierda-libro {
+  width: 60%;   
+}
+
+.derecha-libro {
+  width: 40%;   
+  display: flex;
+  flex-direction: column;  
+  gap: 15px;
+}
+
+.caja-parrafo {
+  background:#F5CBCB;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.botones {
+  margin-top: 30px;    
+  margin-bottom: 50px; 
+  text-align: center;
+}
+
+.botones button {
+  margin: 5px;
+  padding: 8px 12px;
+  background: #CD5656;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: 'Poppins'
+}
+
+.botones button:hover {
+  background: #AF3E3E;
+}
